@@ -15,50 +15,22 @@ nnoremap <leader>V :source ~/.ideavimrc<CR>
 
 nnoremap U :action $Redo<CR>
 nnoremap , :action ShowIntentionActions<cr>
-" nnoremap <leader>a :action 
-" nnoremap <leader>A :action
 nnoremap <leader>b :action ToggleLineBreakpoint<cr>
 nnoremap <leader>B :action ViewBreakpoints<cr>
-nnoremap <leader>c :action $Copy<cr>
-" nnoremap <leader>C :action
+nnoremap <leader>c :action Back<cr>
 nnoremap <leader>d :action GotoDeclaration<cr>
 nnoremap <leader>D :action GotoImplementation<cr>
 nnoremap <leader>e :action GotoNextError<cr>
 nnoremap <leader>E :action GotoPreviousError<cr>
 nnoremap <leader>f :action FindUsages<cr>
 nnoremap <leader>F :action FindInPath<CR>
-nnoremap <leader>g :action Generate<cr>
-" nnoremap <leader>G :action
-nnoremap <leader>h <c-w>h
 nnoremap <leader>H :action FileStructurePopup<cr>
-nnoremap <leader>i <c-w>s
-" nnoremap <leader>I :action
-nnoremap <leader>j <c-w>j
-" nnoremap <leader>J :action
-nnoremap <leader>k <c-w>k
-" nnoremap <leader>K :action
-nnoremap <leader>l <c-w>l
 nnoremap <leader>L :action ReformatCode<cr>
-" nnoremap <leader>m :action
-" nnoremap <leader>M :action
 nnoremap <leader>n :action GotoClass<CR>
-" nnoremap <leader>N :action
-nnoremap <leader>o <c-w>v
-" nnoremap <leader>O :action
-nnoremap <leader>p gt
-" nnoremap <leader>P :action
 nnoremap <leader>q :action CloseContent<CR>
 nnoremap <leader>Q :action CloseAllEditors<CR>
-nnoremap <leader>r :action RenameElement<cr>
-" nnoremap <leader>R :action
 nnoremap <leader>s :action GotoSymbol<CR>
-" nnoremap <leader>S :action
-nnoremap <leader>u gT
-" nnoremap <leader>U :action
-nnoremap <leader>v :action $Paste<cr>
-" nnoremap <leader>V :action
-nnoremap <leader>x :action $Cut<cr>
-" nnoremap <leader>X :action
+nnoremap <leader>v :action Forward<cr>
 nnoremap <leader>/ :action CommentByLineComment<cr>
 
 nnoremap - 10j
