@@ -6,7 +6,6 @@ set number
 set incsearch hlsearch
 set ignorecase smartcase
 set clipboard=unnamed
-set scrolloff=8
 set showmode
 
 
@@ -46,3 +45,4 @@ nnoremap <leader>( ci(
 
 
 
+set clipboard+=ideaputset ideajoin
