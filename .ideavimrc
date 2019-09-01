@@ -1,3 +1,4 @@
+
 source ~/.vimrc
 set surround
 let mapleader = ' '
@@ -46,3 +47,4 @@ nnoremap <leader>( ci(
 
 
 set clipboard+=ideaputset ideajoin
+set clipboard+=unnamed
