@@ -33,10 +33,6 @@ nnoremap <leader>s :action GotoSymbol<CR>
 nnoremap <leader>v :action Forward<cr>
 nnoremap <leader>/ :action CommentByLineComment<cr>
 
-nnoremap - 10j
-nnoremap = 10k
-
-
 nnoremap K ciw
 nnoremap <leader>" ci"
 nnoremap <leader>' ci'
@@ -48,3 +44,4 @@ nnoremap <leader>( ci(
 
 set clipboard+=ideaputset ideajoin
 set clipboard+=unnamed
+set clipboard+=ideaput
